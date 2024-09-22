@@ -8,8 +8,8 @@ admin.site.index_title = "Welcome to Avi Admin Portal"
 
 urlpatterns = [
     path("", views.index, name='home'),
-    path("home", views.index, name='home'),
-    path("about", views.about, name='about'),
+    path("first/home", views.index, name='home'),
+    path("first/about", views.about, name='about'),
     path("services", views.services, name='services'),
     path("contact", views.contact, name='contact'),
 ]
