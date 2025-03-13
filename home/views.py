@@ -30,3 +30,6 @@ def contact(request):
 def services(request):
     return render(request, 'clip.html')
     #return HttpResponse("Hello services")
+
+def clip(request):
+    return render(request, 'clip.html')
