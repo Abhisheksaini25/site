@@ -10,6 +10,6 @@ urlpatterns = [
     path("", views.index, name='home'),
     path("home", views.index, name='home'),
     path("about", views.about, name='about'),
-    path("clip", views.services, name='clip'),
+    path("clip", views.clip, name='clip'),
     path("contact", views.contact, name='contact'),
 ]
