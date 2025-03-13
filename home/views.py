@@ -28,5 +28,5 @@ def contact(request):
     #return HttpResponse("Hello contact")
 
 def services(request):
-    return render(request, 'services.html')
+    return render(request, 'index.html')
     #return HttpResponse("Hello services")
